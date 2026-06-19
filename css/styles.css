@@ -1,8 +1,3 @@
-/* ==========================================================================
-   Kevin Bone Vera — Portafolio / Hoja de vida
-   Concepto: Profesional corporativo — fondo claro, azul marino, tipografía limpia
-   ========================================================================== */
-
 :root {
   --bg:          #F4F6F9;
   --bg-white:    #FFFFFF;
@@ -57,10 +52,8 @@ a:hover { color: var(--navy); }
   }
 }
 
-/* ----- Utilities ----- */
 .font-mono  { font-family: var(--font-mono); }
 
-/* ----- Top nav ----- */
 .navbar-dev {
   background: var(--bg-white);
   border-bottom: 1px solid var(--border);
@@ -96,7 +89,6 @@ a:hover { color: var(--navy); }
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(27,53,97,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-/* ----- Hero ----- */
 .hero {
   padding: 7.5rem 0 5rem;
   background: var(--bg-white);
@@ -210,7 +202,6 @@ a:hover { color: var(--navy); }
   background: var(--panel-2);
 }
 
-/* Photo card */
 .photo-card {
   background: var(--panel);
   border: 1px solid var(--border);
@@ -250,7 +241,6 @@ a:hover { color: var(--navy); }
 .dots .y { background: #C8A030; }
 .dots .g { background: #3A9E6A; }
 
-/* Compile bar */
 .compile-bar {
   margin-top: 1.8rem;
   font-family: var(--font-mono);
@@ -273,7 +263,6 @@ a:hover { color: var(--navy); }
 }
 @keyframes fillbar { to { width: 100%; } }
 
-/* ----- Section shell ----- */
 .section { padding: 4.5rem 0; }
 
 .section-head {
@@ -302,7 +291,6 @@ a:hover { color: var(--navy); }
   background: var(--border);
 }
 
-/* ----- Sidebar / Info panels ----- */
 .panel {
   background: var(--panel);
   border: 1px solid var(--border);
@@ -397,7 +385,6 @@ a:hover { color: var(--navy); }
   line-height: 1.55;
 }
 
-/* Language bars */
 .lang-item { margin-bottom: 1.1rem; }
 .lang-item:last-child { margin-bottom: 0; }
 .lang-row {
@@ -434,7 +421,6 @@ a:hover { color: var(--navy); }
   border-radius: 4px;
 }
 
-/* ----- Cards ----- */
 .entry-card {
   background: var(--panel);
   border: 1px solid var(--border);
@@ -534,7 +520,6 @@ a:hover { color: var(--navy); }
 }
 .stack-row .chip { font-size: 0.7rem; }
 
-/* Project visit button */
 .btn-visit {
   font-family: var(--font-body);
   font-size: 0.78rem;
@@ -553,7 +538,6 @@ a:hover { color: var(--navy); }
   color: #fff;
 }
 
-/* Project gallery */
 .project-gallery {
   margin-top: 1.1rem;
   padding-top: 1rem;
@@ -590,7 +574,6 @@ a:hover { color: var(--navy); }
   display: block;
 }
 
-/* Recognitions / certifications */
 .mini-card {
   background: var(--panel);
   border: 1px solid var(--border);
@@ -627,7 +610,6 @@ a:hover { color: var(--navy); }
 }
 .mini-card.cert .mini-label { color: var(--navy-light); }
 
-/* Tech grid */
 .tech-grid-wrap { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .tech-grid-wrap .chip { font-size: 0.8rem; padding: 0.4rem 0.8rem; }
 
@@ -645,7 +627,6 @@ a:hover { color: var(--navy); }
   border-bottom: 1px solid var(--border);
 }
 
-/* ----- Contact CTA ----- */
 .contact-cta {
   background: var(--navy);
   border-radius: 14px;
@@ -696,7 +677,6 @@ a:hover { color: var(--navy); }
   background: rgba(255,255,255,0.07);
 }
 
-/* ----- Footer ----- */
 .site-footer {
   border-top: 1px solid var(--border);
   padding: 2rem 0;
@@ -715,7 +695,6 @@ a:hover { color: var(--navy); }
 .site-footer a.foot-link:hover { color: var(--navy); }
 .site-footer .foot-sep { color: var(--text-faint); margin: 0 0.5rem; }
 
-/* ----- Responsive ----- */
 @media (max-width: 991.98px) {
   .hero { padding: 6.5rem 0 3.5rem; }
   .photo-card { max-width: 300px; margin: 0 0 2.5rem; }
